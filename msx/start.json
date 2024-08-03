@@ -1,0 +1,100 @@
+{
+   "name": "Загрузчик приложений",
+  "headline": "WALS_MSX 2.3",
+  "extension": "Версия MSX: 1.0.0",
+  "version": "1.0.0",
+  "parameter": "content:http://la777.ru/msx/start.json",
+  "note": "For this service, Media Station X 0.1.120 or higher is needed",
+  "action": "[settings:validate_links:0|home]",
+  "dictionary": "http://la777.ru/msx/lang/ru.json",
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "description",
+          "type": "space",
+          "layout": "5,0,5,5",
+          "text": ""
+        },
+        {
+          "type": "control",
+          "layout": "0,0,5,1",
+          "image": "https://wals09.github.io/msx/lampa/logo.png",
+          "label": "LAMPA TV",
+          "action": "link:http://la777.ru",
+          "selection": {
+            "important": true,
+            "action": "update:content:description",
+            "data": {
+              "text": [
+                "{txt:msx-white: LAMPA TV} — Просмотр популярных фильмов, новинок, топ и т.д"
+              ]
+            }
+          }
+        },
+        {
+          "type": "control",
+          "layout": "0,1,5,1",
+          "image": "https://raw.githubusercontent.com/wals09/msx/main/prisma/logo.png",
+          "label": "Prisma TV",
+          "action": "link:https://prisma.ws/",
+          "selection": {
+            "important": false,
+            "action": "update:content:description",
+            "data": {
+              "text": [
+                "{txt:msx-white: Prisma TV} — Просмотр популярных фильмов, новинок, топ и т.д"
+              ]
+            }
+          }
+        },
+        {
+          "type": "control",
+          "layout": "0,2,5,1",
+          "image": "https://wals09.github.io/msx/atodo/logo.png",
+          "label": "ATODO",
+          "action": "link:http://msx.atodo.fun/",
+          "selection": {
+            "important": false,
+            "action": "update:content:description",
+            "data": {
+              "text": [
+                "{txt:msx-white: ATODO} — Просмотр популярных фильмов, новинок, топ и т.д"
+              ]
+            }
+          }
+        },
+        {
+          "type": "control",
+          "layout": "0,3,5,1",
+          "image": "https://raw.githubusercontent.com/wals09/msx/main/drm/logo_c.png",
+          "label": "TV PLUS",
+          "action": "link:http://ott.drm-play.com",
+          "selection": {
+            "important": true,
+            "action": "update:content:description",
+            "data": {
+              "text": [
+                "{txt:msx-white: TV PLUS} — мультиплатформенный плеер IPTV, доступный на телевизорах, на ТВ-приставках и на мобильных устройствах."
+              ]
+            }
+          }
+        },
+        {
+          "type": "control",
+          "layout": "0,4,5,1",
+          "image": "https://wals09.github.io/msx/foss/ott-foss,с.png",
+          "label": "TV PLUS2",
+          "action": "link:http://ott.prog4food.eu.org/f/",
+          "selection": {
+            "important": false,
+            "action": "update:content:description",
+            "data": {
+              "text": ["{txt:msx-white: TV PLUS2} — мультиплатформенный плеер IPTV, доступный на телевизорах, на ТВ-приставках и на мобильных устройствах."]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
