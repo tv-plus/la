@@ -3,7 +3,7 @@
   "headline": "WALS_MSX 2.3",
   "extension": "Версия MSX: 1.0.0",
   "version": "1.0.0",
-  "parameter": "content:http://la777.ru/msx/start.json",
+  "parameter": "content:https://github.com/tv-plus/la/blob/main/msx/start.json",
   "note": "For this service, Media Station X 0.1.120 or higher is needed",
   "action": "[settings:validate_links:0|home]",
   "dictionary": "http://la777.ru/msx/lang/ru.json",
