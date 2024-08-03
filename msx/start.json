@@ -6,7 +6,7 @@
   "parameter": "content:https://raw.githubusercontent.com/tv-plus/la/main/msx/start.json",
   "note": "For this service, Media Station X 0.1.120 or higher is needed",
   "action": "[settings:validate_links:0|home]",
-  "dictionary": "https://github.com/tv-plus/la/blob/main/msx/lang/ru.json",
+  "dictionary": "https://raw.githubusercontent.com/tv-plus/la/main/msx/lang/ru.json",
   "pages": [
     {
       "items": [
