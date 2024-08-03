@@ -21,7 +21,7 @@
           "layout": "0,0,5,1",
           "image": "https://wals09.github.io/msx/lampa/logo.png",
           "label": "LAMPA TV",
-          "action": "link:http://la777.ru",
+          "action": "link:https://tv-plus.github.io/la/u",
           "selection": {
             "important": true,
             "action": "update:content:description",
